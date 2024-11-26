@@ -1,7 +1,7 @@
+# blog/admin.py
+
 from django.contrib import admin
 from blog.models import Category, Comment, Post
-
-# Register your models here.
 
 class CategoryAdmin(admin.ModelAdmin):
     pass
